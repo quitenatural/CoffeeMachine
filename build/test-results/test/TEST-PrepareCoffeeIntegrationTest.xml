@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrepareCoffeeIntegrationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-10T20:27:45" hostname="192.168.0.106" time="0.044">
+  <properties/>
+  <testcase name="shouldGetIngredientsRunningLow()" classname="PrepareCoffeeIntegrationTest" time="0.016"/>
+  <testcase name="shouldThrowCoffeeExceptionWhenIngredientNotInStock()" classname="PrepareCoffeeIntegrationTest" time="0.011"/>
+  <testcase name="shouldPrepareDrinkAsPerGivenComposition()" classname="PrepareCoffeeIntegrationTest" time="0.006"/>
+  <testcase name="shouldRefillIngredients()" classname="PrepareCoffeeIntegrationTest" time="0.003"/>
+  <testcase name="shouldThrowCoffeeExceptionWhenIngredientQuantityIsInSufficient()" classname="PrepareCoffeeIntegrationTest" time="0.003"/>
+  <testcase name="shouldFetchAvailableIngredients()" classname="PrepareCoffeeIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[Coffee is prepared
+Tea is prepared
+Tea is prepared
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
